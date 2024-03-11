@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./tailwind.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="bg-gray-300">
+            <div class="container m-auto  px-10 py-2 cursor-pointer">
+                <div class="flex justify-between items-center">
+                    <div class="flex gap-5 items-center">
+                        <button class="px-4 py-2 bg-gray-500">
+                            Webinar
+                        </button>
+                        <p>Watch Goldman Sachs, Nacha, and Modern Treasury discuss the future of embedded payments.</p>
+                        <div class="text-green-700">
+                            <a href="#">Watch the webinar.</a>
+                            <span class="text-black font-bold text-xl">></span>
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-xmark text-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container flex justify-between items-center py-3 px-10 cursor-pointer m-auto">
+                <ul class="flex gap-6 text-black">
+                    <li class="hover:text-blue-600">Platform</li>
+                    <li class="hover:text-blue-600">Solutions</li>
+                    <li class="hover:text-blue-600">Resources</li>
+                    <li class="hover:text-blue-600">Pricing</li>
+                </ul>
+                <div class="flex gap-6 items-center text-black">
+                    <div class="hover:text-blue-600">Log in</div>
+                    <button class="rounded-xl bg-[#00835A] py-2 px-3 text-white flex items-center justify-center gap-2">
+                        <span class="hover:text-black">Sign up</span>
+                        <span class="text-black font-bold text-xl">></span>
+                    </button>
+                    <div>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container m-auto px-10 py-6 flex justify-between items-center">
+                <div>
+                    <h1 class="text-[65px] w-[530px]">Build products that move money</h1>
+                    <p class="w-[550px] py-8 text-[20px]">Modern Treasury’s payment operations platform and flexible
+                        APIs enable you
+                        to
+                        add money movement
+                        and tracking to your
+                        products without the heavy lifting.</p>
+                    <div class="flex gap-8 items-center">
+                        <button class="flex justify-center items-center gap-2 bg-[#00835A] px-3 py-3 rounded-3xl">
+                            <span class="text-white">Talk to a Payments Advisor</span>
+                            <span class="font-bold text-xl">></span>
+                        </button>
+                        <div class="flex justify-center items-center gap-2 cursor-pointer ">
+                            <span class="text-green-500"><a href="#">Start building</a></span>
+                            <span class="font-bold text-xl text-black">></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[50%]">
+                    <img class="w-full" src="./image/hero.svg" alt="">
+                    <p class="text-[18px] text-center py-2">Modernize your company’s money movement</p>
+                </div>
+            </div>
+        </section>
+        <section class="economy">
+            <div class="container m-auto px-10 text-center">
+                <h1 class="text-[50px]">Over <span class="text-green-500">$5B</span> Reconciled Monthly
+                </h1>
+                <p class="text-[20px] py-5">Trusted by fast-growing companies in the economy’s most important sectors.
+                </p>
+                <div class="w-[70%] m-auto h-[400px]">
+                    <img class="w-full h-full" src="./image/kompaniy.jpeg" alt="">
+                </div>
+                <div class="flex justify-center items-center gap-2 cursor-pointer py-5 text-2xl">
+                    <span class="text-green-500"><a href="#">Read customer case studies</a></span>
+                    <span class="font-bold text-xl text-black">></span>
+                </div>
+            </div>
+        </section>
+        <section class="problems bg-[#2B3733]">
+            <div class="container m-auto px-10 flex items-center justify-between">
+                <div>
+                    <h4 class="text-[#B2ECA1]">The State of Payment Operations</h4>
+                    <h3 class="text-[36px] text-white">Money’s Next Move</h3>
+                    <p class="text-[#EDF1F1] py-5 w-[450px] opacity-75">It’s 2022, and financial services are at an
+                        inflection
+                        point. It’s natural to have questions. We
+                        did too. So, Modern
+                        Treasury and Harris Poll conducted a survey where financial and product execs revealed the
+                        current issues they face
+                        while managing payment operations.</p>
+                    <div class="flex gap-8 items-center">
+                        <button
+                            class="flex justify-center items-center gap-2 bg-[#B2ECA1] px-3 py-2 rounded-3xl hover:bg-white">
+                            <span class="text-[#004D42] hover:text-black">Talk to a Payments Advisor</span>
+                            <span class="font-bold text-xl">></span>
+                        </button>
+                        <div class="flex justify-center items-center gap-2 cursor-pointer ">
+                            <span class="text-green-500 hover:text-white"><a href="#">Start building</a></span>
+                            <span class="font-bold text-xl text-black">></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[60%]">
+                    <img class="w-full" src="./image/problem.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="products bg-[#004D42]">
+            <div class="container px-10 m-auto">
+                <h1 class="text-center text-white text-[36px] py-8">Our Products</h1>
+                <p class="text-white text-center w-[660px] m-auto pb-5">There's a lot more to money movement than just
+                    moving
+                    money.
+                    Our APIs automate money movement at
+                    scale, including bank
+                    integration, payments, and reconciliation, while the web app provides complete control over fund
+                    flows with approval
+                    workflows, notifications, reporting, and more.</p>
+                <div class="flex justify-between items-center py-10">
+                    <div class="w-[50%]">
+                        <img class="w-full" src="./image/paymen.jpg" alt="">
+                    </div>
+                    <div>
+                        <div class="">
+                            <h4 class="text-[#B2ECA1]">The State of Payment Operations</h4>
+                            <h3 class="text-[36px] text-white">Money’s Next Move</h3>
+                            <p class="text-[#EDF1F1] py-5 w-[450px] opacity-75">It’s 2022, and financial services are at
+                                an
+                                inflection
+                                point. It’s natural to have questions. We
+                                did too. So, Modern
+                                Treasury and Harris Poll conducted a survey where financial and product execs revealed
+                                the
+                                current issues they face
+                                while managing payment operations.</p>
+                            <button
+                                class="flex justify-center items-center gap-2 bg-[#B2ECA1] px-3 py-2 rounded-3xl hover:bg-white">
+                                <span class="text-[#004D42] hover:text-black">Learn about Payments</span>
+                                <span class="font-bold text-xl">></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center py-10">
+                    <div>
+                        <h4 class="text-[#B2ECA1]">Virtual Accounts</h4>
+                        <h3 class="text-[36px] text-white">Reconcile payments automatically</h3>
+                        <p class="text-[#EDF1F1] py-5 w-[450px] opacity-75">We automatically reconcile completed
+                            payments to transactions on your bank statement as they are posted and match
+                            returns and reversals to the original payment, streamlining cash reconciliation. Our Virtual
+                            Accounts product makes it
+                            easy to create and manage unique sub-accounts within your bank account to automate
+                            attributing incoming payments.</p>
+                        <button
+                            class="flex justify-center items-center gap-2 bg-[#B2ECA1] px-3 py-2 rounded-3xl hover:bg-white">
+                            <span class="text-[#004D42] hover:text-black">Learn about Virtual Accounts</span>
+                            <span class="font-bold text-xl">></span>
+                        </button>
+                    </div>
+                    <div class="w-[50%]">
+                        <img class="w-full" src="./image/Reconcile.svg" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between items-center py-10">
+                    <div class="w-[50%]">
+                        <img class="w-full" src="./image/Ledgers.jpg" alt="">
+                    </div>
+                    <div>
+                        <h4 class="text-[#B2ECA1]">Ledgers</h4>
+                        <h3 class="text-[36px] text-white">Track balances in real time</h3>
+                        <p class="text-[#EDF1F1] py-5 w-[450px] opacity-75">We make it easy for products that move money
+                            at scale to track balances in real time with Ledgers, a managed database
+                            optimized for high volume financial transactions that can be integrated in a few lines of
+                            code. Ledgers is immutable,
+                            idempotent, and auditable, providing a reliable source of truth for all transactions taking
+                            place in your product.</p>
+                        <button
+                            class="flex justify-center items-center gap-2 bg-[#B2ECA1] px-3 py-2 rounded-3xl hover:bg-white">
+                            <span class="text-[#004D42] hover:text-black">Learn about Ledgers</span>
+                            <span class="font-bold text-xl">></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="cases">
+            <div class="container px-10 m-auto py-11 text-center">
+                <h1 class="text-[36px] text-black">Use Cases</h1>
+                <p class="text-[20px] text-black opacity-70">Use our flexible, scalable platform to move and track money
+                    however your product needs.</p>
+                <div class="flex flex-wrap justify-between py-6">
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                    <div class="w-[23%] flex-col gap-[15px] justify-center items-center p-3">
+                        <div
+                            class="size-14 rounded-[50%] border-2 border-black flex justify-center items-center m-auto">
+                            <div class="size-12 rounded-[50%] border-2 border-black flex justify-center items-center">
+                                <img src="./image/automatic.svg" alt="">
+                            </div>
+                        </div>
+                        <h3 class="text-center text-black text-[18px] py-2">Automatic Payouts</h3>
+                        <p class="py-3 text-black opacity-70">Automate payouts and reconciliation at scale for multiple
+                            payment methods
+                            through a
+                            single
+                            API.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mode bg-[#1F2334] py-6">
+            <div class="container m-auto px-10">
+                <h1 class="text-center text-white text-[36px] py-4">Made for developers</h1>
+                <p class="w-[660px] text-center m-auto text-white">Integrate Modern Treasury with REST APIs and
+                    webhooks. Our
+                    platform abstracts the complexity of bank
+                    integration,
+                    payment initiation and reconciliation, and balance tracking so that you can focus on your product.
+                </p>
+                <div class="flex justify-center items-center py-11">
+                    <div class="w-[420px]">
+                        <h2 class="text-white text-[20px] py-5">With our APIs you can:</h2>
+                        <div>
+                            <div class="flex gap-3 text-white border-2 border-white p-2">
+                                <input type="radio" name="mode"><label for="mode">Onboard and verify counterparties.</label>
+                            </div>
+                            <div class="flex gap-3 text-white border-2 border-white p-2">
+                                <input type="radio" name="mode"><label for="mode">Onboard and verify counterparties.</label>
+                            </div>
+                            <div class="flex gap-3 text-white border-2 border-white p-2">
+                                <input type="radio" name="mode"><label for="mode">Onboard and verify counterparties.</label>
+                            </div>
+                            <div class="flex gap-3 text-white border-2 border-white p-2">
+                                <input type="radio" name="mode"><label for="mode">Onboard and verify counterparties.</label>
+                            </div>
+                            <div class="flex gap-3 text-white border-2 border-white p-2">
+                                <input type="radio" name="mode"><label for="mode">Onboard and verify counterparties.</label>
+                            </div>
+                            <div class="flex gap-3 text-white border-2 border-white p-2">
+                                <input type="radio" name="mode"><label for="mode">Onboard and verify counterparties.</label>
+                            </div>
+                        </div>
+                        <div class="cursor-pointer flex gap-[8px] items-center mt-[30px]">
+                            <span class="text-[#AEDEF3] font-bold">Explore the docs</span>
+                            <span class="text-white font-bold">></span>
+                        </div>
+                    </div>
+                    <div class="w-[590px] h-[490px]">
+                        <img class="w-full h-full" src="./image/mode.jpg" alt="">
+                    </div>
+                </div>
+                <h1 class="text-center text-white text-[36px] py-4">All your bank accounts in one place</h1>
+                <p class="w-[660px] text-center m-auto text-white">Our partnerships with leading commercial banks enable
+                    us to integrate directly with their core systems, helping you
+                    manage access to bank accounts, payments, transactions, cash balances and more through a single
+                    portal and API.</p>
+                <div class="cursor-pointer flex gap-[8px] items-center py-[30px] w-[100%]  m-auto">
+                    <span class="text-[#AEDEF3] font-bold">Learn more about our bank integrations</span>
+                    <span class="text-white font-bold">></span>
+                </div>
+                <div class="w-[960px] h-[500px] m-auto">
+                    <img class="w-full" src="./image/mode__bottom.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="position relative">
+            <div class="absolute left-0 bottom-0">
+                <img src="./image/position_left.svg" alt="">
+            </div>
+            <div class="static m-auto">
+                <div>
+                    <h2>Try Modern Treasury and see how smooth payment operations can be.</h2>
+                    <div class="flex gap-8 items-center">
+                        <button
+                            class="flex justify-center items-center gap-2 bg-[#00835A] px-3 py-2 rounded-3xl hover:bg-white">
+                            <span class="text-white hover:text-black">Talk to a Payments Advisor</span>
+                            <span class="font-bold text-xl">></span>
+                        </button>
+                        <div class="flex justify-center items-center gap-2 cursor-pointer ">
+                            <span class="text-green-500 hover:text-white"><a href="#">Sign up</a></span>
+                            <span class="font-bold text-xl text-black">></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute right-0">
+                <img src="./image/position_right.svg" alt="">
+            </div>
+        </section>
+
+    </main>
+</body>
+
+</html>
